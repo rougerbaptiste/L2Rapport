@@ -5,45 +5,46 @@ The style file: plain.bst
 Database file #1: rapport.bib.bib
 Warning--I didn't find a database entry for "goossens93"
 Warning--empty journal in tenaillon
-You've used 1 entry,
+Warning--empty journal in tenaillon2
+You've used 2 entries,
             2118 wiz_defined-function locations,
-            502 strings with 4216 characters,
-and the built_in function-call counts, 445 in all, are:
-= -- 34
-> -- 43
+            504 strings with 4230 characters,
+and the built_in function-call counts, 870 in all, are:
+= -- 68
+> -- 86
 < -- 0
-+ -- 17
-- -- 16
-* -- 39
-:= -- 89
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 11
++ -- 34
+- -- 32
+* -- 76
+:= -- 169
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 10
-empty$ -- 18
-format.name$ -- 16
-if$ -- 78
+cite$ -- 4
+duplicate$ -- 20
+empty$ -- 35
+format.name$ -- 32
+if$ -- 155
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 13
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 26
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 20
 quote$ -- 0
-skip$ -- 7
+skip$ -- 14
 stack$ -- 0
-substring$ -- 5
+substring$ -- 10
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 1
-while$ -- 2
-width$ -- 2
-write$ -- 11
-(There were 2 warnings)
+type$ -- 8
+warning$ -- 2
+while$ -- 4
+width$ -- 3
+write$ -- 20
+(There were 3 warnings)
