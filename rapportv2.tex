@@ -52,7 +52,7 @@
 			
 			\begin{wrapfigure}[5]{l}[12pt]{5cm}
 				\includegraphics[width=5cm]{logo.jpg}
-			\end{wrapfigure} ~\\
+			\end{wrapfigure} ~\\ ~\\
 			UMR de Génétique Quantitative et Evolution - Le Moulon\\
 			Ferme du Moulon\\
 			91190 Gif-sur-Yvette \\ \\
@@ -63,7 +63,7 @@
 				\includegraphics[width = 4 cm]{upsud.jpg}
 			\end{figure}
 			
-			\paragraph*{Directeur de recherche : Olivier \bsc{Martin} \\
+			\paragraph*{Directeur d'unité : Olivier \bsc{Martin} \\
 			Maître de stage : Christine \bsc{Dillmann}\\
 			Enseignant référent : Judith \bsc{Legrand} }
 			\vfill
@@ -73,7 +73,7 @@
 
 	
 	\tableofcontents
-	\listoffigures
+	%\listoffigures
 	\newpage
 	
 		\section*{Glossaire}
@@ -84,9 +84,13 @@
 				
 				\item [Dérive génétique :] réduction du nombre de génotypes différents dans une population de taille finie du fait de l'échantillonnage aléatoire des gamètes ou des individus.
 				
+				\item [Homozygotie :] Etat d'un individu dont les allèles sont identiques
+				
 				\item [Monoïque :] se dit d'une plante dont les fleurs mâles et femelles sont distinctes mais situées sur le même pied.
 				
-				\item [Mutation :] 
+				\item [Mutation :] Modification survenant dans la séquence de l'A.D.N. d'une cellule et pouvant entraîner la disparition d'un caractère préexistant ou l'apparition d'un caractère nouveau.
+				
+				\item [Photopériode :] La photopériode est le rapport entre la durée du jour et la durée de la nuit.
 				
 				\item [Sélection naturelle :] pression évolutive qui conduit à des changements de la composition génétique d'une population d'une génération à l'autre, en lien avec des différences génétiques des capacités de survie ou de reproduction.
 				
@@ -106,20 +110,20 @@
 						Le cycle de vie du maïs (\bsc{Figure}~\ref{Cycle de vie du maïs en culture}) commence par la phase de dormance du grain, puis sa germination. Vient ensuite le stade végétatif jeune durant lequel la plante développe ses feuilles juvéniles. Il s'achève par la transition florale qui marque le début du stade végétatif adulte. Celui-ci se termine par la floraison débutant le stade reproducteur. Pour finir, lorsque les graines sont mûres, celles-ci peuvent être récoltées.
 						\begin{figure}[h]
 							\centering
-							\includegraphics[width=13.7cm]{cycle.png}
+							\includegraphics[width=0.55\textwidth]{cycle.png}
 							\caption{Cycle de vie du maïs en culture}
 							\label{Cycle de vie du maïs en culture}
 						\end{figure}
 							
 					
 					\subsubsection{Histoire du maïs}
-						Le maïs est une espèce domestiquée depuis environ 9000 ans. Elle est originaire des alentours de Mexico et est issue de la téosinte (\textit{Zea sp}). Elle s'est rapidement propagée à travers le continent américain\cite{tenaillon} en quelques milliers d'années. Cette expansion demanda son adaptation à des climats plus tempérés que son environnement naturel tropical, ce qui fut réalisé en sélectionnant les variétés insensibles à la photopériode, relativement précoces et capables d'effectuer leur cycle de croissance avant l'arrivée des conditions climatiques défavorable (\bsc{Figure}~\ref{Cycle de vie du maïs en culture}). Elle fut découverte et ramenée pour la première fois en Europe par Christophe Colomb lors de sa découverte de l'Amérique. C'est aujourd'hui une des premières céréales cultivées dans le monde.
+						Le maïs est une espèce domestiquée depuis environ 9000 ans. Elle est originaire des alentours de Mexico et est issue de la téosinte (\textit{Zea sp}). Elle s'est rapidement propagée à travers le continent américain\cite{tenaillon} en quelques milliers d'années. Cette expansion demanda son adaptation à des climats plus tempérés que son environnement naturel tropical, ce qui fut réalisé en sélectionnant les variétés insensibles à la photopériode, relativement précoces et capables d'effectuer leur cycle de croissance avant l'arrivée des conditions climatiques défavorables (\bsc{Figure}~\ref{Cycle de vie du maïs en culture}). Elle fut découverte et ramenée pour la première fois en Europe par Christophe Colomb lors de sa découverte de l'Amérique. C'est aujourd'hui une des premières céréales cultivées dans le monde.
 						
 						\paragraph{Domestication du maïs} 
-							Lors de sa domestication, le maïs a vu certaines de ses caractéristiques changer pour le voir devenir ce qu'il est aujourd'hui (\bsc{Figure}~\ref{Comparaison entre téosinte et maïs}). On peut par exemple citer l'absence de dissémination de ses graines, l'augmentation de leur poids et de leur nombre, la synchronisation des dates de floraison mâles et femelles ainsi qu'une dominance apicale entraînant une modification de l'architecture de la plante.
+							Lors de sa domestication, le maïs a vu certaines de ses caractéristiques changer pour le voir devenir ce qu'il est aujourd'hui (\bsc{Figure}~\ref{Comparaison entre téosinte et maïs}). On peut par exemple citer l'absence de dissémination de ses graines, l'augmentation de leur poids et de leur nombre, la synchronisation des dates de floraison mâles et femelles ainsi qu'une dominance apicale entraînant une modification de l'architecture de la plante\cite{bertrand_2013}.
 							\begin{figure}[h]
 								\centering
-								\includegraphics[width=0.5\textwidth]{comparaison.jpg}
+								\includegraphics[width=0.45\textwidth]{comparaison.jpg}
 								\caption{Comparaison entre téosinte et maïs}
 								\label{Comparaison entre téosinte et maïs}
 							\end{figure}
@@ -132,12 +136,14 @@
 						
 						%parler des degrés jour pour la mesure des durées pour les plantes.
 						\paragraph{Des forces évolutives}
-							Les individus d'une population interagissent de façon dynamique avec leur environnement. Ces interactions conduisent à des changements de composition génétique des populations sous l'effet des pressions évolutives. Ainsi, les mutations représentent une pression évolutive puisqu'elles modifient la composition génétique des individus d'une population. De la même façon, on peut citer la dérive génétique et la sélection naturelle, qui amènent à la conservation de certains génotypes.
+							Les individus d'une population interagissent de façon dynamique avec leur environnement. Ces interactions conduisent à des changements de composition génétique des populations sous l'effet des pressions évolutives. Ainsi, les mutations représentent une pression évolutive puisqu'elles modifient la composition génétique des individus d'une population. De la même façon, on peut citer la dérive génétique et la sélection naturelle, qui amènent à la conservation de certains génotypes.\\
+							
+							Dans notre expérience de sélection divergente, les échantillons seront soumis à ces pressions évolutives, ainsi qu'à la pression de l'environnement, ce qui explique pourquoi certaines années sont très différentes des autres. Ainsi, on va donc voir différentes pressions évolutives s'exercer sur notre échantillon.
 							
 					
 					\subsubsection{L'expérience de sélection divergente}
 					
-						L'expérience de sélection divergente a débuté en 1993. Prenant pour origine deux lignées pures de maïs (F252 et MBS847) à très forte homozygotie, les plants les plus précoces et les plus tardifs pour la date de floraison furent sélectionnés pour le semis chaque année. On obtient ainsi deux populations de maïs pour une même lignée pure, marquants une plus ou moins forte réponse à la sélection selon la variété et la direction de la sélection (\bsc{Figure}~\ref{sélection}). Pour réaliser cette comparaison, la date de floraison est calculée en degré-jour, c'est à dire en somme de température.
+						L'expérience de sélection divergente a débuté en 1993 \cite{basso_divergent_2008,durand_standing_2010,thomas_biologie_2010}. Prenant pour origine deux lignées pures de maïs (F252 et MBS847) à très forte homozygotie, les plants les plus précoces et les plus tardifs pour la date de floraison ont été mesurés sur leur date de floraison et leur hauteur pour chaque lignée. En resemant ces plantes pendant les 19 années d'expérimentation, on a obtenu deux populations de maïs pour une même lignée pure, marquants une plus ou moins forte réponse à la sélection selon la variété et la direction de la sélection (\bsc{Figure}~\ref{sélection}). Pour réaliser cette comparaison, la date de floraison est calculée en degré-jour, c'est à dire en somme de température. Ces données de date de floraison ont déjà été analysées.
 						\begin{figure}
 							\centering
 							\includegraphics[width =0.5\textwidth]{selection.png}
@@ -149,10 +155,10 @@
 					
 				\subsection{Objectifs du stage}
 				
-					Une analyse fine des paramètres de hauteur pour chaque population de maïs doit être faite pour déterminer si, comme nous le pensons, la hauteur est corrélée à la date de floraison, et de quelle façon (causale, aléatoire...), et si c'est le cas, dans quelle mesure.
+					Une analyse fine de la  hauteur des plantes pour chaque population de maïs doit être faite pour déterminer si, comme nous le pensons, la hauteur est corrélée à la date de floraison, de quelle façon (causale, aléatoire...), et si c'est le cas, dans quelle mesure.
 					
 			\begin{quotation}
-				Après nous êtres intéressés au matériel utilisé lors des vingt années d'expérimentation, nous nous intéresserons au méthodes de traitement des données. Nous analyserons ensuite les résultats et les interpréterons. Enfin, nous conclurons ce sujet.
+				Après nous êtres intéressés au matériel utilisé lors des vingt années d'expérimentation, nous nous intéresserons aux méthodes de traitement des données. Nous analyserons ensuite les résultats et les interpréterons. Enfin, nous conclurons ce sujet.
 			\end{quotation}
 			
 			
@@ -161,9 +167,9 @@
 			 		\subsection{Le matériel végétal}
 			 			
 			 			L'expérience de sélection divergente (\bsc{Figure}~\ref{selec.div}), débutée en 1993 et toujours en cours, compte 19 générations. Les lignées de départ utilisées sont deux lignées pures à forte homozygotie : les maïs F252 et MBS847 (notée MBS). On obtient pour chaque lignée deux populations, une tardive et une précoce, sélectionnées pour la date de floraison\footnote{Définie lorsque les fleurs mâles et femelles apparaissent} notée en degrés-jours. On replante également chaque année la lignée pure de départ comme témoin.
-			 			Par ailleurs, chaque lignée est représentée par plusieurs familles tardives et précoces (\bsc{Figure}~\ref{sélection}) dont le nom est composé d'une lettre suivie de deux ou trois chiffres. Chaque famille est représentée chaque année par un certain nombre de descendants des individus sélectionnés à la génération précédente. Ces individus, appelés \og progéniteurs\fg sont nommés d'une façon qui permet de retracer facilement leur généalogie (\bsc{Figure}~\ref{carte_gen} : chaque point représente un progéniteur sélectionné pour être semé. Les traits entre les points indiquent les relations de parenté entre les progéniteurs. Les derniers progéniteurs sont marqués en noir ainsi que tous leurs ancêtres pour pouvoir retracer leur généalogie.). On a donc plusieurs niveaux d'apparentement : progéniteur, famille, population et lignée.
+			 			Par ailleurs, chaque lignée est représentée par plusieurs familles tardives et précoces (\bsc{Figure}~\ref{sélection}) dont le nom est composé d'une lettre suivie de deux ou trois chiffres. Chaque population est représentée chaque année par dix descendants des individus sélectionnés à la génération précédente. Ces individus, appelés \og progéniteurs\fg~sont nommés d'une façon qui permet de retracer facilement leur généalogie (\bsc{Figure}~\ref{carte_gen} : chaque point représente un progéniteur sélectionné pour être semé. Les traits entre les points indiquent les relations de parenté entre les progéniteurs. Les derniers progéniteurs sont marqués en noir ainsi que tous leurs ancêtres pour pouvoir retracer leur généalogie.). On a donc plusieurs niveaux d'apparentement : progéniteur, famille, population et lignée.
 			 			
-			 			A chaque génération, on réalise pour chaque lignée une autofécondation\footnote{Pour réaliser l'autofécondation, on couvre les fleurs des individus de sachets pour recueillir le pollen et protéger les soies. Après vingt-quatre heures, le sachet contenant le pollen est déposé sur la fleur femelle pour réaliser l'autofécondation.} des dix individus les plus précoces et les plus tardifs. Par ailleurs, à chaque génération également, on mesure une dizaine de plantes environ par progéniteur.
+			 			A chaque génération, on réalise pour chaque lignée une autofécondation\footnote{Pour réaliser l'autofécondation, on couvre les fleurs des individus de sachets pour recueillir le pollen et protéger les soies. Après vingt-quatre heures, le sachet contenant le pollen est déposé sur la fleur femelle pour réaliser l'autofécondation.} des dix individus les plus précoces et les plus tardifs. Par ailleurs, à chaque génération également, on mesure une dizaine de plantes environ par progéniteur. Ces mesures sont faites séparément sur des plantes différentes.
 			 			
 			 			\begin{figure}[h]
 			 				
@@ -197,19 +203,18 @@
 			 			
 			 			\subsubsection{Correction des données}
 			 				
-			 				L'impact de l'année et de l'emplacement dans le champ (appelé \og effet bloc \fg) sur la hauteur des plantes a ensuite été constaté . En effet, il apparaît clair que l'année va jouer un rôle important sur la hauteur de la plante, en fonction de la quantité de précipitations, de la température cumulée, etc. De la même façon, les propriétés du terrain peuvent varier localement, selon par exemple la composition du sol, ce qui va là encore influer sur la hauteur des plantes. Un script\footnote{Il s'agit du script \textit{\ul{DataCorrectv2.R}}} a donc été réalisé pour estimer et corriger les données récoltées.
-			 				
-			 				Ce script réalise une analyse (effet de l'année et \og effet bloc \fg) de la variance de la hauteur. On utilise ensuite les résultats de cette analyse pour corriger dans un premier temps l'\og effet bloc \fg, et dans un second temps l'effet année. Ceci peut être fait grâce aux plantes témoins dont la hauteur moyenne ne devrait pas varier d'une année sur l'autre.Cela permet également de vérifier que la correction des données est efficace.
+			 				L'impact de l'année et de l'emplacement dans le champ (appelé \og effet bloc \fg) sur la hauteur des plantes a ensuite été constaté . En effet, il apparaît clair que l'année va jouer un rôle important sur la hauteur de la plante, en fonction de la quantité de précipitations, de la température cumulée, etc. De la même façon, les propriétés du terrain peuvent varier localement, selon par exemple la composition du sol, ce qui va là encore influer sur la hauteur des plantes. Un script\footnote{Il s'agit du script \textit{\ul{DataCorrectv2.R}}} a donc été réalisé pour estimer et corriger les données récoltées.\\
+			 				Ce script réalise une analyse (effet de l'année et \og effet bloc \fg) de la variance de la hauteur. On utilise ensuite les résultats de cette analyse pour corriger dans un premier temps l'\og effet bloc \fg, et dans un second temps l'effet année. Ceci peut être fait grâce aux plantes témoins dont la hauteur moyenne ne devrait pas varier d'une année sur l'autre. Cela permet également de vérifier que la correction des données est efficace.
 			 				
 			 		\subsection{Résultats}
 			 			
 			 			\subsubsection{Réponse de la hauteur des plantes à la sélection pour la date de floraison}
 			 				
-			 				Les deux figures suivantes (\bsc{Figures}~\ref{hauteursf252} et ~\ref{hauteursmbs}) représentent par des boxplots les variations de la hauteur des individus mesurés pour chaque population en fonction du temps. Elles présentent également la pente de la variation des hauteurs au cours du temps (on peut trouver le coefficient directeur de cette droite en haut de chaque graphe).\\
+			 				Les deux figures suivantes (\bsc{Figures}~\ref{hauteursf252} et ~\ref{hauteursmbs}) représentent par des boxplots les variations de la hauteur des individus mesurés pour chaque population en fonction des générations de sélection. Elles présentent également la pente de la variation des hauteurs au cours du temps (on peut trouver le coefficient directeur de cette droite en haut de chaque graphe).\\
 			 				Si l'on observe les témoins, on remarque que le coefficient de leur droite de régression est de zéro (avec une certitude de rejet de H$_{1}$(variation de hauteur en fonction du temps) de 100\%). On peut ainsi dire que les données on bien été corrigées puisque les hauteurs des témoins sont stables et invariées au cours du temps.\\
 			 				
 			 				On observe également ( \bsc{Figure}~\ref{hauteursf252} et \bsc{Figure}~\ref{hauteursmbs} ) des tendances à la hausse pour les populations tardives (0.53 cm/an et 0.21 cm/an respectivement pour F252 et MBS)  et une tendance à la baisse pour la population précoce de MBS (-0.64cm/an). La population précoce de F252 semble cependant augmenter de taille, bien que très faiblement (0.03cm/an).\\		 				
-			 				Ainsi, les variations des hauteurs des plantes au cours du temps sont très faibles d'année en année pour l'ensemble des données observées. Or on constate, particulièrement pour les lignées tardives, que la hauteur des plantes est déjà différente de la hauteur du témoin pour la première année d'observation des hauteurs. Cela semble indiquer qu'une réponse très rapide à la sélection a eu lieu dans les premières années, puis que cette réponse a très rapidement diminué voire cessé.
+			 				Ainsi, les variations des hauteurs des plantes au cours du temps sont très faibles d'une année sur l'autre pour l'ensemble des données observées. Or on constate, particulièrement pour les lignées tardives, que la hauteur des plantes est déjà différente de la hauteur du témoin pour la première année d'observation des hauteurs. Cela semble indiquer qu'une réponse très rapide à la sélection a eu lieu dans les premières années, puis que cette réponse a très rapidement diminué voire cessé.
 			 				
 			 				
 			 				\begin{figure}[h]
@@ -224,7 +229,7 @@
 			 						}
 			 					\end{minipage}
 			 					\begin{minipage}[t]{0.32\textwidth}
-			 						\subfigure[Population tardif]{
+			 						\subfigure[Population tardive]{
 			 							\includegraphics[width=4.5cm]{plot_haut_pop_F252_TARDIF.pdf}
 			 						}
 			 					\end{minipage}
@@ -242,7 +247,7 @@
 			 						}
 			 					\end{minipage}
 			 					\begin{minipage}[t]{0.32\textwidth}
-			 						\subfigure[Population tardif]{
+			 						\subfigure[Population tardive]{
 			 							\includegraphics[width=4.5cm]{plot_haut_pop_MBS_TARDIF.pdf}
 			 						}
 			 					\end{minipage}
@@ -252,42 +257,53 @@
 			 			\subsubsection{Corrélation entre hauteur et date de floraison}
 			 				
 			 				\paragraph{Corrélation par famille et par année}
-			 				Il a également été testée si il y avait bien une corrélation entre la hauteur des plantes et la date de floraison (\bsc{Figure}~\ref{correlation}). Pour cela, on a représenté pour chaque famille et chaque année la hauteur moyenne des plantes en fonction de leur date moyenne de floraison.\\
-			 				On observe ainsi une répartition globale des points autour d'une droite. On peut également observer une scission entre les populations précoces et tardives des lignées (respectivement représentées dans des couleurs froides et des couleurs chaudes en \bsc{Figure}~\ref{correlation}). Par ailleurs, il semble qu'il n'y ait pas forcément de corrélation intra-famille.\\
-			 				Cela confirme donc le fait que la hauteur et la date de floraison sont corrélées pour les lignées.
+			 				Il a également été testé si il y avait bien une corrélation entre la hauteur des plantes et la date de floraison (\bsc{Figure}~\ref{correlation}). Pour cela, on a représenté pour chaque progéniteur la hauteur moyenne des plantes en fonction de leur date moyenne de floraison.\\
+			 				On observe ainsi une répartition globale des points autour d'une droite. On peut également observer une scission entre les populations précoces et tardives de chaque lignée (respectivement représentées dans des couleurs froides et des couleurs chaudes en \bsc{Figure}~\ref{correlation}) : les populations tardives sont plus hautes et les populations précoces plus courtes. Par ailleurs, il semble qu'il n'y ait pas forcément de corrélation intra-famille.\\
+			 				La corrélation observée est due à une différence entre populations précoce et tardive, mais on ne trouve pas de corrélation entre progéniteurs d'une même famille.
 			 				
-			 				\begin{figure}[!h]
+			 				\begin{figure} %[!h]
+			 					\centering
 			 						\subfigure{
 			 							\includegraphics[width=0.45\textwidth]{plot_haut-flo_F252.pdf}
 			 						}
 			 						\subfigure{
 			 							\includegraphics[width=0.45\textwidth]{plot_haut-flo_MBS.pdf}
 			 						}
-			 					\caption{Représentation de la relation entre hauteur et date de floraison \label{correlation}}
-			 					Chaque point d'une couleur représente la moyenne de la hauteur des progéniteurs d'une famille pour une année (couleurs dans la figure) en fonction de la date moyenne de floraison de ces mêmes plantes. A gauche, la lignée F252 et à droite la lignée MBS.
+			 					\caption{Représentation de la relation entre hauteur et date de floraison.\\
+			 					Chaque point représente la moyenne de la hauteur des progéniteurs d'une famille pour une année en fonction de la date moyenne de floraison de ces mêmes plantes. La couleur des points indique à quelle famille appartient le point (couleurs dans la légende). A gauche, la lignée F252 et à droite la lignée MBS.
+			 					\label{correlation}}
 			 				\end{figure}
-			 				
-			 				\paragraph{Corrélation intra-famille}
-			 					
-								En \bsc{Figure}~\ref{correl.fam}, on a représenté pour deux familles précoces (F-39 et M-49) l'évolution de la relation entre hauteur et date de floraison en indiquant l'année par des nombres. Ainsi, on peut suivre l'évolution de la corrélation. On observe ainsi que les points ne semblent pas évoluer dans le même sens pour la hauteur : on voit F252 augmenter puis se stabiliser, tandis que MBS voit sa hauteur descendre de façon semble-t-il constante. Il semble donc qu'il n'y ait pas de réelle corrélation entre la hauteur et la date floraison.
-			 				
-			 				
-			 				\begin{figure}[!h]
+	 				
+	 						\begin{figure} %[!h]
+			 					\centering
+			 					\subfigure[Famille M-49]{
+			 						\includegraphics[width=0.45\textwidth]{plot_haut-flo_m49.pdf}
+			 					} %\quad
 			 					\subfigure[Famille F-39]{
 			 						\includegraphics[width=0.45\textwidth]{plot_haut-flo_f39.pdf}
 			 					}
-			 					\subfigure[Famille M-49]{
-			 						\includegraphics[width=0.45\textwidth]{plot_haut-flo_m49.pdf}
-			 					}
-			 					\caption{Représentation séparée de la corrélation entre hauteur et date de floraison pour deux familles \label{correl.fam}}
-			 					Chaque nombre représente par sa position la moyenne de la hauteur des progéniteurs de la famille (F-39 à gauche et M-49 à droite) en fonction de la date de floraison. Les nombres indiquent l'année (1998 étant l'année 1), on peut donc suivre l'écolution de la corrélation au cours du temps.
-			 				\end{figure}
+			 					\caption{Représentation séparée de la corrélation entre hauteur et date de floraison pour deux familles\\
+			 					Chaque nombre représente par sa position la moyenne de la hauteur des progéniteurs de la famille (M-49 à gauche et F-39 à droite) en fonction de la date de floraison. Les nombres indiquent l'année (1998 étant l'année 1), on peut donc suivre l'évolution de la corrélation au cours du temps.
+			 					\label{correl.fam}}
+			 				\end{figure}			 				
 			 				
-			 			\paragraph{Corrélation par plante pour 2013 et 2014}
+			 				\paragraph{Corrélation intra-famille}
+			 					
+								Pour vérifier plus précisément la corrélation (ou son absence) entre progéniteurs d'une même famille, on observe la \bsc{Figure}~\ref{correl.fam}. On a représenté pour deux familles précoces (F-39 et M-49) l'évolution de la relation entre hauteur et date de floraison en indiquant l'année par des nombres. Ainsi, on peut suivre l'évolution de la relation entre les deux caractères. \\
+								
+								Pour M-49, on note une corrélation globalement positive. On remarque également, avec l'observation de l'évolution des caractères au cours des générations de sélection, d'une part que la date de floraison diminue, et d'autre part que la hauteur suit cette variation et diminue également.
+								La corrélation pour cette famille est due à des différences entre les générations. La hauteur et la date de floraison ont changé.\\
+								
+								Pour F-39, on n'observe globalement pas de corrélation : la date de floraison diminue mais la hauteur augmente entre 1998 et 2002 puis ne change plus. On n'observe donc pas la même chose pour cette famille que pour M-49, mais plutôt une corrélation négative pour les années 1998 à 2002 due à une différence des progéniteurs selon les années. Ensuite, on n'observe plus de corrélation, ce qui indique que les deux caractères évoluent de façon indépendante.
 			 				
-			 				Les \bsc{Figures}~\ref{correlf252} et ~\ref{correlmbs} présentent les coefficients de corrélation de chaque famille pour les années 2013 et 2014 pour les deux lignées. Il s'agit de données mesurée plante par plante et non corrigées.
+
+			 			~\paragraph{Corrélation entre individus}
+			 				
+			 				On dispose, pour les années 2013 et 2014, des données de hauteur et de date de floraison mesurées sur une même plante. On n'utilise donc plus ici les données mesurées par progéniteur et moyennées comme auparavant. On va ainsi pouvoir regrouper et comparer les données à différents niveaux.
+			 				
+			 				Pour cela, on a calculé des coefficients de corrélation entre hauteur et date de floraison sur la base des mesures plante à plante pour chaque famille, population et lignée. On a également réalisé un test statistique à 95\% pour vérifier la signification du coefficient de corrélation. Les \bsc{Figures}~\ref{correlf252} et ~\ref{correlmbs} présentent les coefficients de corrélation de chaque famille, population des années 2013 et 2014 pour les deux lignées. Il s'agit de données mesurées plante par plante et non corrigées.
+			 				
 			 				Si l'on regarde tout d'abord au niveau global (c'est à dire sur l'ensemble de la lignée de l'année), on remarque que la corrélation est toujours significative à 95\% et positive. A l'échelle des populations (précoce, témoin et tardif), on peut observer des inconstances dans les corrélations. Ainsi, pour F252, on peut voir que les tardifs ont une corrélation non significative pour les deux années, alors que les populations précoce et témoin ont un coefficient de corrélation tantôt significatif, tantôt non significatif. Pour MBS, on remarque que la population précoce reste corrélée de façon significative et que la population témoin a un coefficient de corrélation qui reste non significatif. On voit également, cependant, que la population témoin est tantôt significative, tantôt non significative.\\
-			 				Quant aux familles, elles ont un coefficient de corrélation pour la plupart non significatif. On observe cependant des années où les familles sont corrélées de façon significative, sans lien avec les autres années.\\
 			 				De même, on peut observer que, pour certaines familles et populations, les coefficients de corrélation sont tantôt positifs, tantôt négatifs.\\
 			 				
 			 				\begin{figure} [!h]
@@ -297,8 +313,9 @@
 			 					\subfigure[Année 2014]{
 			 						\includegraphics[width=0.45\textwidth]{F2522014.pdf}
 			 					}
-			 					\caption{Répresentation des coefficients de corrélation entre hauteur et date de floraison par plante en 2013 et 2014 pour F252 \label{correlf252}}
+			 					\caption{Répresentation des coefficients de corrélation entre hauteur et date de floraison par plante en 2013 et 2014 pour F252\\
 			 					Le coefficient de corrélation de chaque famille, calculé en associant la hauteur et la date de floraison de chaque plante, est représenté en figuré plein si la corrélation est significative à 95\% et en figuré creux si la corrélation n'est pas significative pour le même seuil.
+			 					\label{correlf252}}
 			 				\end{figure}
 			 				\begin{figure} [!h]
 			 					\subfigure[Année 2013]{
@@ -307,25 +324,28 @@
 			 					\subfigure[Année 2014]{
 			 						\includegraphics[width=0.45\textwidth]{MBS2014.pdf}
 			 					}
-			 					\caption{Répresentation des coefficients de corrélation entre hauteur et date de floraison par plante en 2013 et 2014 pour MBS \label{correlmbs}}
+			 					\caption{Répresentation des coefficients de corrélation entre hauteur et date de floraison par plante en 2013 et 2014 pour MBS\\
 			 					Le coefficient de corrélation de chaque famille, calculé en associant la hauteur et la date de floraison de chaque plante, est représenté en figuré plein si la corrélation est significative à 95\% et en figuré creux si la corrélation n'est pas significative pour le même seuil.
+			 					\label{correlmbs}}
 			 				\end{figure}
-			 				
-			 				On peut donc dire qu'il n'y a pas de corrélation intra-famille ou populationnelle entre la hauteur et la date de floraison. Cependant, sur l'ensemble des plantes, on peut confirmer l'existence d'une corrélation entre la hauteur et la date de floraison.
+			 				~\\ ~\\
+			 				\paragraph{Conclusion sur les résultats}
+			 				On peut donc dire que la corrélation globale est due à la différence entre les populations précoces et tardives. On déduit également que l'évolution conjointe de la date de floraison et de la hauteur au cours des générations semble suivre un patron complexe, puisque dans la plupart des cas, on n'observe pas de corrélation entre hauteur et date de floraison pour des individus d'une même famille et d'une même génération de sélection.\\
+			 				On peut donc dire qu'il n'y a pas de relation de causalité directe entre hauteur et date de floraison.
 			 	\section{Discussion}
 			 		
-			 		On a donc pu conclure à une corrélation entre la hauteur et la date de floraison sur l'ensemble des plantes d'une lignée, et ce de façon certaine puisque celle-ci apparaît toujours de façon positive et significative, mais que cette corrélation n'existait pas avec certitude à l'intérieur des populations et des familles. Si le biais échantillonnage parait improbable (les échantillons vont de quelques centaines d'individus à des milliers d'individus mesurés), un biais a pu être introduit lors de la correction des données, ce qui induirait une erreur dans les tests et les représentations. De la même façon, lors de l'analyse de la corrélation par plante pour 2013 et 2014,  les données n'ont pas été corrigées, et un biais a pu être introduit par \og effet bloc\fg  ou \og effet année\fg. Il pourrait donc être important de corriger ces données.\\
+			 		Si le biais d'échantillonnage parait improbable (les échantillons vont de quelques centaines d'individus à des milliers d'individus mesurés par année), un biais a pu être introduit lors de la correction des données, ce qui induirait une erreur dans les tests et les représentations. De la même façon, lors de l'analyse de la corrélation par plante pour 2013 et 2014,  les données n'ont pas été corrigées, et un biais a pu être introduit par \og effet bloc\fg~ou \og effet année\fg. Il pourrait donc être important de corriger ces données.\\
 			 		
-			 		Nous avons vu qu'une corrélation entre hauteur et date de floraison existait pour les lignées. Il serait intéressant de voir si le nombre de feuille et/ou la longueur des entre-n\oe{}uds a été modifiée par l'expérience de sélection divergente pour la date de floraison.
+			 		Il serait intéressant de voir si le nombre de feuilles et/ou la longueur des entre-n\oe{}uds a été modifiée par l'expérience de sélection divergente pour la date de floraison, et de chercher l'origine des variations de hauteur observées.
 			 		
 			 	\section{Conclusion}
 			 		
-			 		Nous avons donc montré qu'une corrélation, comme nous le pensions, existait entre la hauteur et la date de floraison, mais que celle-co n'existait qu'au niveau des lignées, et pas au niveau des familles. Nous n'avons pu conclure à la source de cette corrélation.
+			 		Nous avons donc montré qu'une corrélation, comme nous le pensions, existait entre la hauteur et la date de floraison, mais que celle-ci n'existait qu'au niveau des lignées, et était due à la différence de hauteur et de date de floraison entre les populations précoces et tardives. On peut ainsi dire qu'il n'y a pas de relation de causalité directe entre la hauteur et la date de floraison.
 	
 	\newpage
 			
 	\bibliographystyle{plain}
-	\bibliography{rapport}
+	\bibliography{baptiste}
 	
 	\newpage
 	\appendix
@@ -336,10 +356,12 @@
 		Voici la fonction de chacun de ces codes :
 		\begin{description}
 			\item [aggregate.R :] Ce script a pour fonction de rassembler les données contenues dans les fichiers de hauteurs de chaque année pour les rassembler dans un unique fichier.
+			\item [cor\_indiv.R :] Ce script a pour fonction de récupérer les données plante à plante des années 2013 et 2014 et de calculer les coefficients de corrélation pour chaque famille, population et lignée, et d'en afficher les graphiques dans un fichier .pdf.
 			\item [Datacorrectv2.R :] Ce script corrige les données des années et affiche un graphe (\textit{Référence}) résumant les données.
+			\item [HautFlo.R : ] Ce script affiche dans un fichier .pdf les données de hauteur en fonction des données de dates de floraison par progéniteur.
 			\item [RprFam.R :] Ce script a pour fonction de représenter les données de hauteurs obtenues pour chaque famille (hauteur absolue et hauteur relative au témoin) et de créer un fichier .pdf contenant les deux graphes.
 			\item [RprPop.R :] Ce script a pour fonction de représenter les données de hauteurs obtenues pour chaque population (hauteur absolue et hauteur relative au témoin) et de créer un fichier .pdf contenant les deux graphes.
-			\item [tri.R :] Ce script a pour fonction de récupérer toutes les données brutes de hauteurs, de les mettre sous une forme standard et de créer un fichier contenant les données de hauteur par année.
+			\item [tri.R :] Ce script a pour fonction de récupérer toutes les données brutes de hauteur, de les mettre sous une forme standard et de créer un fichier contenant les données de hauteur par année.
 			
 		\end{description}
 

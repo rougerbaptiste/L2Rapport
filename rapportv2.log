@@ -1,9 +1,13 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.4.15)  22 MAY 2015 16:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.4.15)  26 MAY 2015 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**\nonstopmode\input rapportv2.tex
-(./rapportv2.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+**rapportv2.tex
+(./rapportv2.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
@@ -686,6 +690,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--59
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
+
+ []
+
 <inra.jpg, id=85, 304.13625pt x 166.6225pt>
 File: inra.jpg Graphic file (type jpg)
  <use inra.jpg>
@@ -714,54 +723,55 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \tf@toc=\write4
 \openout4 = `rapportv2.toc'.
 
- (./rapportv2.lof)
-\tf@lof=\write5
-\openout5 = `rapportv2.lof'.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.77 	\newpage
-               [1] [2] <cycle.png, id=159, 1129.018pt x 431.211pt>
+               [1] [2] <cycle.png, id=132, 1129.018pt x 431.211pt>
 File: cycle.png Graphic file (type png)
 
 <use cycle.png>
-Package pdftex.def Info: cycle.png used on input line 109.
-(pdftex.def)             Requested size: 389.80266pt x 148.8798pt.
- <comparaison.jpg, id=164, 397.485pt x 223.67564pt>
+Package pdftex.def Info: cycle.png used on input line 113.
+(pdftex.def)             Requested size: 250.38564pt x 95.62996pt.
+ <comparaison.jpg, id=138, 397.485pt x 223.67564pt>
 File: comparaison.jpg Graphic file (type jpg)
 
 <use comparaison.jpg>
-Package pdftex.def Info: comparaison.jpg used on input line 122.
-(pdftex.def)             Requested size: 227.62206pt x 128.0937pt.
+Package pdftex.def Info: comparaison.jpg used on input line 126.
+(pdftex.def)             Requested size: 204.85846pt x 115.28127pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (0.77075pt too wide) in paragraph at lines 135--136
+Overfull \hbox (0.77075pt too wide) in paragraph at lines 139--140
  []\T1/cmr/bx/n/12 Des forces évo-lu-tives[] \T1/cmr/m/n/12 Les in-di-vidus d'u
 ne pop-u-la-tion in-ter-agis-sent de façon dy-namique
  []
 
-[3 <./cycle.png>] <selection.png, id=178, 735.74875pt x 799.98875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+[3 <./cycle.png>] <selection.png, id=158, 735.74875pt x 799.98875pt>
 File: selection.png Graphic file (type png)
 
 <use selection.png>
-Package pdftex.def Info: selection.png used on input line 143.
+Package pdftex.def Info: selection.png used on input line 149.
 (pdftex.def)             Requested size: 227.62206pt x 247.49347pt.
  [4 <./comparaison.jpg>]
-<selec_div.png, id=189, 525.162pt x 412.742pt>
+<selec_div.png, id=173, 525.162pt x 412.742pt>
 File: selec_div.png Graphic file (type png)
  <use selec_div.png>
-Package pdftex.def Info: selec_div.png used on input line 172.
+Package pdftex.def Info: selec_div.png used on input line 178.
 (pdftex.def)             Requested size: 199.16928pt x 156.52869pt.
 
-<carte_gen.png, id=190, 838.13126pt x 782.925pt>
+<carte_gen.png, id=174, 838.13126pt x 782.925pt>
 File: carte_gen.png Graphic file (type png)
  <use carte_gen.png>
-Package pdftex.def Info: carte_gen.png used on input line 179.
+Package pdftex.def Info: carte_gen.png used on input line 185.
 (pdftex.def)             Requested size: 199.16928pt x 186.04219pt.
 
 
@@ -769,51 +779,51 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5 <./selection.png (PNG copy)>] [6 <./selec_div.png> <./carte_gen.png (PNG cop
 y)>]
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
 
  []
 
-<plot_haut_pop_F252_PRECOCE.pdf, id=216, 505.89pt x 505.89pt>
+<plot_haut_pop_F252_PRECOCE.pdf, id=202, 505.89pt x 505.89pt>
 File: plot_haut_pop_F252_PRECOCE.pdf Graphic file (type pdf)
 
 <use plot_haut_pop_F252_PRECOCE.pdf>
-Package pdftex.def Info: plot_haut_pop_F252_PRECOCE.pdf used on input line 219.
+Package pdftex.def Info: plot_haut_pop_F252_PRECOCE.pdf used on input line 224.
 
 (pdftex.def)             Requested size: 128.0374pt x 128.03918pt.
 
-<plot_haut_pop_F252_TEMOIN.pdf, id=217, 505.89pt x 505.89pt>
+<plot_haut_pop_F252_TEMOIN.pdf, id=203, 505.89pt x 505.89pt>
 File: plot_haut_pop_F252_TEMOIN.pdf Graphic file (type pdf)
 
 <use plot_haut_pop_F252_TEMOIN.pdf>
-Package pdftex.def Info: plot_haut_pop_F252_TEMOIN.pdf used on input line 224.
+Package pdftex.def Info: plot_haut_pop_F252_TEMOIN.pdf used on input line 229.
 (pdftex.def)             Requested size: 128.0374pt x 128.03918pt.
 
-<plot_haut_pop_F252_TARDIF.pdf, id=218, 505.89pt x 505.89pt>
+<plot_haut_pop_F252_TARDIF.pdf, id=204, 505.89pt x 505.89pt>
 File: plot_haut_pop_F252_TARDIF.pdf Graphic file (type pdf)
 
 <use plot_haut_pop_F252_TARDIF.pdf>
-Package pdftex.def Info: plot_haut_pop_F252_TARDIF.pdf used on input line 229.
+Package pdftex.def Info: plot_haut_pop_F252_TARDIF.pdf used on input line 234.
 (pdftex.def)             Requested size: 128.0374pt x 128.03918pt.
 
-<plot_haut_pop_MBS_PRECOCE.pdf, id=219, 505.89pt x 505.89pt>
+<plot_haut_pop_MBS_PRECOCE.pdf, id=205, 505.89pt x 505.89pt>
 File: plot_haut_pop_MBS_PRECOCE.pdf Graphic file (type pdf)
 
 <use plot_haut_pop_MBS_PRECOCE.pdf>
-Package pdftex.def Info: plot_haut_pop_MBS_PRECOCE.pdf used on input line 237.
+Package pdftex.def Info: plot_haut_pop_MBS_PRECOCE.pdf used on input line 242.
 (pdftex.def)             Requested size: 128.0374pt x 128.03918pt.
 
-<plot_haut_pop_MBS_TEMOIN.pdf, id=220, 505.89pt x 505.89pt>
+<plot_haut_pop_MBS_TEMOIN.pdf, id=206, 505.89pt x 505.89pt>
 File: plot_haut_pop_MBS_TEMOIN.pdf Graphic file (type pdf)
 
 <use plot_haut_pop_MBS_TEMOIN.pdf>
-Package pdftex.def Info: plot_haut_pop_MBS_TEMOIN.pdf used on input line 242.
+Package pdftex.def Info: plot_haut_pop_MBS_TEMOIN.pdf used on input line 247.
 (pdftex.def)             Requested size: 128.0374pt x 128.03918pt.
 
-<plot_haut_pop_MBS_TARDIF.pdf, id=221, 505.89pt x 505.89pt>
+<plot_haut_pop_MBS_TARDIF.pdf, id=207, 505.89pt x 505.89pt>
 File: plot_haut_pop_MBS_TARDIF.pdf Graphic file (type pdf)
 
 <use plot_haut_pop_MBS_TARDIF.pdf>
-Package pdftex.def Info: plot_haut_pop_MBS_TARDIF.pdf used on input line 247.
+Package pdftex.def Info: plot_haut_pop_MBS_TARDIF.pdf used on input line 252.
 (pdftex.def)             Requested size: 128.0374pt x 128.03918pt.
 
 
@@ -821,109 +831,219 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7 <./plot_haut_pop_F252_PRECOCE.pdf> <./plot_haut_pop_F252_TEMOIN.pdf> <./plot
 _haut_pop_F252_TARDIF.pdf>]
-<plot_haut-flo_F252.pdf, id=254, 505.89pt x 505.89pt>
+<plot_haut-flo_F252.pdf, id=242, 505.89pt x 505.89pt>
 File: plot_haut-flo_F252.pdf Graphic file (type pdf)
 
 <use plot_haut-flo_F252.pdf>
-Package pdftex.def Info: plot_haut-flo_F252.pdf used on input line 262.
+Package pdftex.def Info: plot_haut-flo_F252.pdf used on input line 268.
 (pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
 
-<plot_haut-flo_MBS.pdf, id=255, 505.89pt x 505.89pt>
+<plot_haut-flo_MBS.pdf, id=243, 505.89pt x 505.89pt>
 File: plot_haut-flo_MBS.pdf Graphic file (type pdf)
 
 <use plot_haut-flo_MBS.pdf>
-Package pdftex.def Info: plot_haut-flo_MBS.pdf used on input line 265.
-(pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
- [8 <./plot_haut_pop_MBS_PRECOCE.pdf> <./plot_haut_pop_MBS_TEMOIN.pdf> <./plot_
-haut_pop_MBS_TARDIF.pdf> <./plot_haut-flo_F252.pdf> <./plot_haut-flo_MBS.pdf>]
-<plot_haut-flo_f39.pdf, id=302, 505.89pt x 505.89pt>
-File: plot_haut-flo_f39.pdf Graphic file (type pdf)
-
-<use plot_haut-flo_f39.pdf>
-Package pdftex.def Info: plot_haut-flo_f39.pdf used on input line 278.
+Package pdftex.def Info: plot_haut-flo_MBS.pdf used on input line 271.
 (pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
 
-<plot_haut-flo_m49.pdf, id=303, 505.89pt x 505.89pt>
+! Argument of \Hy@tempa has an extra }.
+<inserted text> 
+                \par 
+l.274 			 					\label{correlation}}
+                                   
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\@captype {\def \reserved@a *{\nobreak \@xcentercr }\reserved@a }\def \ETC.
+! Paragraph ended before \Hy@tempa was complete.
+<to be read again> 
+                   \par 
+l.274 			 					\label{correlation}}
+                                   
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+<plot_haut-flo_m49.pdf, id=244, 505.89pt x 505.89pt>
 File: plot_haut-flo_m49.pdf Graphic file (type pdf)
 
 <use plot_haut-flo_m49.pdf>
 Package pdftex.def Info: plot_haut-flo_m49.pdf used on input line 281.
 (pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
+<plot_haut-flo_f39.pdf, id=245, 505.89pt x 505.89pt>
+File: plot_haut-flo_f39.pdf Graphic file (type pdf)
+
+<use plot_haut-flo_f39.pdf>
+Package pdftex.def Info: plot_haut-flo_f39.pdf used on input line 284.
+(pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
+
+! Argument of \Hy@tempa has an extra }.
+<inserted text> 
+                \par 
+l.287 			 					\label{correl.fam}}
+                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\@captype {\def \reserved@a *{\nobreak \@xcentercr }\reserved@a }\def \ETC.
+! Paragraph ended before \Hy@tempa was complete.
+<to be read again> 
+                   \par 
+l.287 			 					\label{correl.fam}}
+                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
-<F2522013.pdf, id=306, 505.89pt x 505.89pt>
+[8 <./plot_haut_pop_MBS_PRECOCE.pdf> <./plot_haut_pop_MBS_TEMOIN.pdf> <./plot_h
+aut_pop_MBS_TARDIF.pdf> <./plot_haut-flo_F252.pdf> <./plot_haut-flo_MBS.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 294--296
+
+ []
+
+[9 <./plot_haut-flo_m49.pdf> <./plot_haut-flo_f39.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
+
+ []
+
+<F2522013.pdf, id=315, 505.89pt x 505.89pt>
 File: F2522013.pdf Graphic file (type pdf)
  <use F2522013.pdf>
-Package pdftex.def Info: F2522013.pdf used on input line 296.
+Package pdftex.def Info: F2522013.pdf used on input line 312.
 (pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
 
-<F2522014.pdf, id=307, 505.89pt x 505.89pt>
+<F2522014.pdf, id=316, 505.89pt x 505.89pt>
 File: F2522014.pdf Graphic file (type pdf)
  <use F2522014.pdf>
-Package pdftex.def Info: F2522014.pdf used on input line 299.
+Package pdftex.def Info: F2522014.pdf used on input line 315.
 (pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
 
+! Argument of \Hy@tempa has an extra }.
+<inserted text> 
+                \par 
+l.318 			 					\label{correlf252}}
+                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Runaway argument?
+\@captype {\def \reserved@a *{\let \reserved@e \vadjust \let \reserved@f \ETC.
+! Paragraph ended before \Hy@tempa was complete.
+<to be read again> 
+                   \par 
+l.318 			 					\label{correlf252}}
+                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-<MBS2013.pdf, id=308, 505.89pt x 505.89pt>
+<MBS2013.pdf, id=317, 505.89pt x 505.89pt>
 File: MBS2013.pdf Graphic file (type pdf)
  <use MBS2013.pdf>
-Package pdftex.def Info: MBS2013.pdf used on input line 306.
+Package pdftex.def Info: MBS2013.pdf used on input line 323.
 (pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
 
-<MBS2014.pdf, id=309, 505.89pt x 505.89pt>
+<MBS2014.pdf, id=318, 505.89pt x 505.89pt>
 File: MBS2014.pdf Graphic file (type pdf)
  <use MBS2014.pdf>
-Package pdftex.def Info: MBS2014.pdf used on input line 309.
+Package pdftex.def Info: MBS2014.pdf used on input line 326.
 (pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
+
+! Argument of \Hy@tempa has an extra }.
+<inserted text> 
+                \par 
+l.329 			 					\label{correlmbs}}
+                                 
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\@captype {\def \reserved@a *{\let \reserved@e \vadjust \let \reserved@f \ETC.
+! Paragraph ended before \Hy@tempa was complete.
+<to be read again> 
+                   \par 
+l.329 			 					\label{correlmbs}}
+                                 
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./plot_haut-flo_f39.pdf> <./plot_haut-flo_m49.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
-[10 <./F2522013.pdf> <./F2522014.pdf> <./MBS2013.pdf> <./MBS2014.pdf>] [11]
-(./rapportv2.bbl) [12]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 335.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+
+ []
+
+[10 <./F2522013.pdf> <./F2522014.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+
+ []
+
+[11 <./MBS2013.pdf> <./MBS2014.pdf>] [12] (./rapportv2.bbl) [13]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 355.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
 
  []
 
 
-Overfull \hbox (14.94392pt too wide) in paragraph at lines 339--340
+Overfull \hbox (14.94392pt too wide) in paragraph at lines 360--361
 []\T1/cmr/m/n/12 Ce script cor-rige les don-nées des an-nées et af-fiche un gra
 phe (\T1/cmr/m/it/12 Référence\T1/cmr/m/n/12 )
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
-[13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
  (./rapportv2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 346.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 368.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 368.
 Package rerunfilecheck Info: File `rapportv2.out' has not changed.
-(rerunfilecheck)             Checksum: 34F5AE6A4C258B52EECB69E0CD454F34;1563.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+(rerunfilecheck)             Checksum: EB2B7DC834F24A2EC0C0711741E70FF0;1563.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 368.
  ) 
 Here is how much of TeX's memory you used:
- 8247 strings out of 495059
- 115365 string characters out of 3182030
- 215123 words of memory out of 3000000
- 11187 multiletter control sequences out of 15000+200000
+ 8253 strings out of 495059
+ 115514 string characters out of 3182030
+ 215471 words of memory out of 3000000
+ 11191 multiletter control sequences out of 15000+200000
  22351 words of font info for 53 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,9n,29p,936b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,9n,29p,908b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/stagiaire/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </ho
 me/stagiaire/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1000.600pk> </home/stag
 iaire/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/stagiaire/.
@@ -942,10 +1062,10 @@ agiaire/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk> </home/stagiaire
 nts/pk/ljfour/jknappen/ec/ecrm2074.600pk> </home/stagiaire/.texmf-var/fonts/pk/
 ljfour/jknappen/ec/ecbx2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr8.pfb>
-Output written on rapportv2.pdf (14 pages, 1665120 bytes).
+Output written on rapportv2.pdf (15 pages, 1673937 bytes).
 PDF statistics:
- 845 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
+ 858 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
  271 words of extra memory for PDF output out of 10000 (max. 10000000)
 
